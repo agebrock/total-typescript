@@ -1,0 +1,17 @@
+{
+  "name": "@agebrock/total-typescript",
+  "version": "0.0.1",
+  "bin": {
+    "_ts": "./current.ps1"
+  },
+  "description": "esm commonjs typescript for the rest of us",
+  "scripts": {
+    "postinstall": "node ./install.js"
+  },
+  "keywords": ["typescript","ts-node","cli"],
+  "author": "Christoph.Hagenbrock@googlemail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
